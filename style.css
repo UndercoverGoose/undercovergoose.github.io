@@ -1,0 +1,51 @@
+* {
+  font-family: Arial;
+  margin: auto;
+  text-align: center;
+  color: #ff3333;
+  cursor: url("goose.png"), auto !important;
+  transition-property: color, border;
+  transition-duration: 0.3s;
+}
+a {
+  font-size: 2vh;
+}
+a:hover {
+  color: white;
+}
+.panel {
+  width: 100vw;
+  height: 60vh;
+  border: none;
+  border-bottom: 3px solid white;
+}
+.pT {
+  background: #1a1a1f;
+}
+.pB {
+  background: #2a2a2f;
+}
+.title {
+  padding-top: 27vh;
+  font-size: 6vh;
+}
+.subtitle {
+  font-size: 2.5vh;
+  padding-top: 7vh;
+  padding-bottom: 14vh;
+}
+.block {
+  border: 2px solid;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  font-size: 5vh;
+}
+.block:hover {
+  border: 2px solid white;
+}
+#dvd {
+  position: fixed;
+  z-index: 999;
+}
