@@ -36,11 +36,11 @@ a:hover {
 }
 .block {
   border: 2px solid;
-  padding-top: 7vh;
-  padding-bottom: 7vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   padding-left: 7vw;
   padding-right: 7vw;
-  font-size: 5vh;
+  font-size: 3vh;
 }
 .block:hover {
   border: 2px solid white;
